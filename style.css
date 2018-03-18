@@ -1,13 +1,71 @@
-h1 {
-	color: grey;
-}
-p {
-	color: black;
-	
-}
-.Intro {
+body{
+	background-color: lightgray;
 	display: grid;
-	width: 400px;
-	text-align: center;
-	font-family: Helvetica;
+	grid-template-columns: auto;
+}
+
+.Banner {
+	font-family: "Orbitron";
+	font-size: 20px;
+	list-style: none;
+}
+.DropList {
+
+}
+
+ul .Nav{
+	float: left;
+	margin-right: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: black;
+	opacity: .75;
+}
+
+ul li{
+	color: white;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	color: gray;
+}
+
+ul li ul li {
+	display: none;
+	grid-template-rows: 10px 10px 10px 10px;
+}
+
+ul li:hover ul li {
+	display: block;
+	/*position: fixed; */
+}
+
+.Main {
+	float: left;
+	font-family: "Play";
+	margin-left: 40px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: black;
+	opacity: .75
+}
+
+.Intro {
+
+}
+
+p {
+	color: white;	
+}
+h2 {
+	color: white;		
 }
