@@ -1,0 +1,13 @@
+h1 {
+	color: grey;
+}
+p {
+	color: black;
+	
+}
+.Intro {
+	display: grid;
+	width: 400px;
+	text-align: center;
+	font-family: Helvetica;
+}
