@@ -1,71 +1,92 @@
-body{
+body {
 	background-color: lightgray;
-	display: grid;
-	grid-template-columns: auto;
 }
+
 
 .Banner {
 	font-family: "Orbitron";
-	font-size: 20px;
+	font-size: 30px;
 	list-style: none;
+	background-color: grey;
+	width: auto;
+	padding: 70px;
+	border-radius: 10px;
 }
-.DropList {
 
+.DropList {
+	font-size: 20px;
 }
 
 ul .Nav{
 	float: left;
-	margin-right: 2px;
+	margin-right: 5px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 50px;
 	padding-left: 50px;
-	border: 2px solid white;
+	border: 3px solid white;
 	border-radius: 10px;
 	background-color: black;
 	opacity: .75;
 }
 
-ul li{
+.Banner ul li{
 	color: white;
-}
-ul li a{
 	text-decoration: none;
-	color: white;
 	display: block;
 }
-ul li a:hover{
-	color: gray;
+
+.Banner ul li a{
+	color: white;
+	text-decoration: none;
 }
 
-ul li ul li {
+.Banner ul li:hover ul li {
+	display: block;
+}
+
+.Banner ul li a:hover{
+	background-color: grey;
+}
+
+.Banner ul li ul li {
+	z-index: 1;
 	display: none;
 	grid-template-rows: 10px 10px 10px 10px;
 }
 
-ul li:hover ul li {
-	display: block;
-	/*position: fixed; */
-}
-
-.Main {
+.Content {
+	position: absolute;
+	width: auto;
+	overflow: auto;
 	float: left;
 	font-family: "Play";
-	margin-left: 40px;
+	margin-top: 120px;
+	margin-left: 00px;
 	padding: 10px;
-	border: 2px solid white;
+	border: 3px solid white;
 	border-radius: 10px;
 	background-color: black;
 	opacity: .75
 }
 
-.Intro {
+#id {
+
+}
+
+#about {
 
 }
 
 p {
 	color: white;	
 }
+
+ul li {
+	color: white;
+}
+
 h2 {
+	font-size: 30px;
 	color: white;		
 }
